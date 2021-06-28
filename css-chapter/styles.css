@@ -18,3 +18,16 @@ h1 {
     font-size: 80px;
 }
 
+h3 {
+    transition: 1s ease all;
+}
+
+h3:hover {
+    cursor: pointer;
+    color: red;
+    font-size: 40px;
+    transition: 1s ease all;
+    transform: translateY(20px)
+}
+
+
