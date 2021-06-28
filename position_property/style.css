@@ -1,0 +1,26 @@
+.box-container {
+    width: 80%;
+    height: 50%;
+    background-color: skyblue;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    
+}
+
+.box {
+    width: 30%;
+    height: 30%;
+    background-color: cornflowerblue;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.box:nth-of-type(1) {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
