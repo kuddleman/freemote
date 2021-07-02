@@ -68,6 +68,12 @@ h1 {
 }
 
 .post-details > h3 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.post-details > h6 {
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
@@ -83,4 +89,15 @@ h1 {
 
 .other-post > img {
     width: 100%;
+}
+
+.bio {
+    margin-top: 20px;
+    display: flex;
+}
+
+.bio > img {
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
 }

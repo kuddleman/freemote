@@ -1,0 +1,36 @@
+/* MOBILE FIRST STYLES */
+
+body {
+    font-size: 2rem;
+}
+
+.container {
+    background-color: dimgray;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        background-color: cadetblue;
+    }
+
+    body {
+        font-size: 3rem;
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        background-color: blueviolet;
+    }
+    
+    body {
+        font-size: 4rem;
+    }
+}
+
